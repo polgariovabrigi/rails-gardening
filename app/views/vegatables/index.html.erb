@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-end align-items-centre landing-page-background">
+  <h1>Agrifl☀️ra</h1>
+  <p>Guide to grow your own vegetables</p>
+</div>
+
+<div>
+ <% @vegatables.each do |vegatable| %>
+  <div class = 'card'>
+   <%= vegatable.name %>
+   <%= vegatable.variety %>
+  </div>
+ <% end %>
+ <div>
+
+
+

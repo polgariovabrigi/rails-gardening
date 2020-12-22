@@ -1,1 +1,15 @@
 // Specific CSS for your home-page
+
+body {
+background-color: white;
+}
+
+
+.landing-page-background {
+  background-image: url("background-1.jpg"); /* The image used */
+  height: 50vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+ }

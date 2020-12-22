@@ -1,0 +1,4 @@
+class GrowthsController < ApplicationController
+
+
+end
